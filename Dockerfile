@@ -10,4 +10,3 @@ RUN apk update \
   && apk del tar \
   && rm -rf /apache-maven-3.3.9-bin.tar.gz \
   && rm -rf /var/cache/apk/*
-ADD settings.xml /root/.m2/
